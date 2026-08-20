@@ -7,6 +7,9 @@ repo_name: sanketn26/sanketn26.github.io
 copyright: Copyright &copy; Sanket Naik
 use_directory_urls: true
 
+hooks:
+  - hooks/sitemap.py
+
 theme:
   name: material
   language: en
