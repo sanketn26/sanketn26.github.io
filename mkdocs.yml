@@ -1,0 +1,48 @@
+site_name: Sanket — Learning in public
+site_description: Firsthand engineering notes shaped with AI into free, practical learning material.
+site_url: https://sanketn26.github.io/
+repo_url: https://github.com/sanketn26/sanketn26.github.io
+repo_name: sanketn26/sanketn26.github.io
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.instant
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  font:
+    text: Inter
+    code: JetBrains Mono
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: teal
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: teal
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+nav:
+  - Home: index.md
+
+extra_css:
+  - stylesheets/extra.css
+
+plugins:
+  - search:
+      lang: en
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
