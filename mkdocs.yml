@@ -1,12 +1,16 @@
 site_name: Sanket — Learning in public
 site_description: Firsthand engineering notes shaped with AI into free, practical learning material.
+site_author: Sanket Naik
 site_url: https://sanketn26.github.io/
 repo_url: https://github.com/sanketn26/sanketn26.github.io
 repo_name: sanketn26/sanketn26.github.io
+copyright: Copyright &copy; Sanket Naik
+use_directory_urls: true
 
 theme:
   name: material
   language: en
+  custom_dir: overrides
   features:
     - navigation.tabs
     - navigation.tabs.sticky
@@ -46,3 +50,9 @@ plugins:
 markdown_extensions:
   - attr_list
   - md_in_html
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/sanketn26
+      name: Sanket on GitHub

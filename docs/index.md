@@ -1,4 +1,6 @@
 ---
+title: Practical Engineering Courses from Firsthand Notes
+description: Free courses built from Sanket's firsthand engineering notes and shaped with AI, covering defensive security, machine learning, AI engineering, and senior engineering interviews.
 hide:
   - navigation
   - toc
@@ -44,7 +46,7 @@ Clear Markdown lessons, practical exercises, and interactive simulations.
 
 <div class="course-grid" markdown>
 
-<a class="course-card security" href="https://sanketn26.github.io/learn-security/">
+<a class="course-card security" href="https://sanketn26.github.io/learn-security/" aria-label="Start the Defensive Security Engineering course">
   <span class="course-number">01</span>
   <span class="course-symbol">⌁</span>
   <strong>Defensive Security Engineering</strong>
@@ -52,7 +54,7 @@ Clear Markdown lessons, practical exercises, and interactive simulations.
   <b>Start learning ↗</b>
 </a>
 
-<a class="course-card ml" href="https://sanketn26.github.io/learn-ml/">
+<a class="course-card ml" href="https://sanketn26.github.io/learn-ml/" aria-label="Start the applied machine learning course">
   <span class="course-number">02</span>
   <span class="course-symbol">∿</span>
   <strong>Learn ML</strong>
@@ -60,7 +62,7 @@ Clear Markdown lessons, practical exercises, and interactive simulations.
   <b>Start learning ↗</b>
 </a>
 
-<a class="course-card ai" href="https://sanketn26.github.io/AIEngineering/">
+<a class="course-card ai" href="https://sanketn26.github.io/AIEngineering/" aria-label="Start the AI Engineering course">
   <span class="course-number">03</span>
   <span class="course-symbol">✦</span>
   <strong>AI Engineering</strong>
@@ -68,7 +70,7 @@ Clear Markdown lessons, practical exercises, and interactive simulations.
   <b>Start learning ↗</b>
 </a>
 
-<a class="course-card academy" href="https://sanketn26.github.io/interview-prep/">
+<a class="course-card academy" href="https://sanketn26.github.io/interview-prep/" aria-label="Start the Senior Engineer Academy course">
   <span class="course-number">04</span>
   <span class="course-symbol">⌘</span>
   <strong>Senior Engineer Academy</strong>
