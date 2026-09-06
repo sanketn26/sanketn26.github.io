@@ -38,7 +38,7 @@ Mostly distributed systems and the machinery underneath them — caching, durabl
 execution, scheduling, observability — and lately the AI tooling growing into
 that same stack.
 
-<div class="course-grid" markdown>
+<div class="course-grid">
 
 <a class="course-card" href="projects/" aria-label="Browse the projects">
   <span class="course-number">01</span>

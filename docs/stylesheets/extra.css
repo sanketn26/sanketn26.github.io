@@ -198,7 +198,7 @@
 
 .md-typeset .project-card:hover { box-shadow: 0 14px 34px rgba(15, 23, 42, 0.1); transform: translateY(-2px); }
 .project-card strong { margin-bottom: 0.45rem; font-size: 1.05rem; }
-.project-card > span { color: #64748b; font-size: 0.78rem; line-height: 1.6; }
+.project-card > span:not(.project-status) { color: #64748b; font-size: 0.78rem; line-height: 1.6; }
 .project-card .project-tags { margin-top: auto; padding-top: 0.9rem; color: var(--course-accent); font-size: 0.68rem; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; }
 
 /* Link lists (articles published elsewhere) */
@@ -222,7 +222,7 @@
 .link-item .link-meta { display: block; margin-top: 0.3rem; color: var(--course-accent); font-size: 0.64rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; }
 
 [data-md-color-scheme="slate"] .project-card { color: #e2e8f0; background: rgba(15, 23, 42, 0.5); border-color: #475569; border-left-color: var(--course-accent-light); }
-[data-md-color-scheme="slate"] .project-card > span { color: #94a3b8; }
+[data-md-color-scheme="slate"] .project-card > span:not(.project-status) { color: #94a3b8; }
 [data-md-color-scheme="slate"] .project-card .project-tags { color: var(--course-accent-light); }
 [data-md-color-scheme="slate"] .link-item { color: #e2e8f0; }
 [data-md-color-scheme="slate"] .link-item .link-date { color: var(--course-accent-light); }
@@ -234,3 +234,28 @@
   .md-typeset .link-item { grid-template-columns: 1fr; }
   .link-item .link-date { grid-row: auto; }
 }
+
+/* Project status badges */
+.md-typeset .project-card { position: relative; }
+.project-card .project-status {
+  align-self: flex-start;
+  margin-bottom: 0.6rem;
+  padding: 0.16rem 0.5rem;
+  border: 1px solid currentcolor;
+  border-radius: 999px;
+  font-size: 0.6rem;
+  font-weight: 800;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  line-height: 1.5;
+}
+
+.project-card .status-ideation { color: #8b5cf6; }
+.project-card .status-wip      { color: #d97706; }
+.project-card .status-alpha    { color: #0ea5e9; }
+.project-card .status-beta     { color: var(--course-accent); }
+
+[data-md-color-scheme="slate"] .project-card .status-ideation { color: #c4b5fd; }
+[data-md-color-scheme="slate"] .project-card .status-wip      { color: #fcd34d; }
+[data-md-color-scheme="slate"] .project-card .status-alpha    { color: #7dd3fc; }
+[data-md-color-scheme="slate"] .project-card .status-beta     { color: var(--course-accent-light); }

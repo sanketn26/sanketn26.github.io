@@ -44,7 +44,7 @@ hide:
 
 Clear Markdown lessons, practical exercises, and interactive simulations.
 
-<div class="course-grid" markdown>
+<div class="course-grid">
 
 <a class="course-card security" href="https://sanketn26.github.io/learn-security/" aria-label="Start the Defensive Security Engineering course">
   <span class="course-number">01</span>

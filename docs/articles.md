@@ -9,7 +9,7 @@ hide:
 
 Long-form articles published on Medium, newest first.
 
-<div class="link-list" markdown>
+<div class="link-list">
 
 <a class="link-item" href="https://levelup.gitconnected.com/beyond-the-dashboard-the-mechanics-of-flow-centric-observability-d0039cd8b86a">
   <span class="link-date">2025-12-20</span>
