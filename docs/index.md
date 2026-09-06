@@ -1,6 +1,6 @@
 ---
-title: Practical Engineering Courses from Firsthand Notes
-description: Free courses built from Sanket's firsthand engineering notes and shaped with AI, covering defensive security, machine learning, AI engineering, and senior engineering interviews.
+title: Sanket Naik — learning in public, by building and writing
+description: Notes from hands-on engineering work, shared as open-source projects, long-form articles, and free note courses on security, ML, AI engineering, data engineering, and system design.
 hide:
   - navigation
   - toc
@@ -8,74 +8,60 @@ hide:
 
 <section class="course-hero">
   <div class="course-hero__content">
-    <span class="course-eyebrow">Learning in public</span>
-    <h1>Notes from the work.<br><span>Lessons for everyone.</span></h1>
+    <span class="course-eyebrow">Sanket Naik</span>
+    <h1>Learning in public,<br><span>by building and writing.</span></h1>
     <p class="course-hero__lead">
-      Throughout my career, I’ve kept detailed notes on what I’ve learned through
-      hands-on experience. With the help of AI, I’ve organised and expanded those
-      notes into structured learning material that I can share with others.
+      Notes become courses. Ideas become open projects. What I work out in
+      between becomes an article. All of it free, all of it on GitHub.
     </p>
     <div class="course-actions">
-      <a class="course-button course-button--primary" href="#open-courses">Explore the courses <span aria-hidden="true">↓</span></a>
-      <a class="course-button course-button--secondary" href="https://github.com/sanketn26">View on GitHub <span aria-hidden="true">↗</span></a>
+      <a class="course-button course-button--primary" href="projects/">Have a look around <span aria-hidden="true">→</span></a>
+      <a class="course-button course-button--secondary" href="https://github.com/sanketn26">GitHub <span aria-hidden="true">↗</span></a>
     </div>
     <p class="course-hero__note">No paywalls · No ads · Open on GitHub</p>
   </div>
-  <div class="course-terminal" aria-label="How these courses are made">
-    <div class="course-terminal__bar"><i></i><i></i><i></i><span>notes / learning-material</span></div>
+  <div class="course-terminal" aria-label="What is on this site">
+    <div class="course-terminal__bar"><i></i><i></i><i></i><span>~/sanketn26</span></div>
     <div class="course-terminal__body">
-      <p><span class="terminal-muted">01</span> Learn through hands-on work</p>
-      <p><span class="terminal-muted">02</span> Capture firsthand notes</p>
-      <p><span class="terminal-muted">03</span> Organise and expand with AI</p>
-      <p><span class="terminal-muted">04</span> Share practical courses</p>
+      <p><span class="terminal-muted">$</span> tree -L 1</p>
+      <p><span class="terminal-muted">├─</span> projects/ <span class="terminal-note">things I built to understand them</span></p>
+      <p><span class="terminal-muted">├─</span> articles/ <span class="terminal-note">longer write-ups</span></p>
+      <p><span class="terminal-muted">└─</span> note-courses/ <span class="terminal-note">notes grown into courses</span></p>
       <div class="terminal-status"><span></span> Free and open to everyone</div>
     </div>
   </div>
 </section>
 
-<div class="course-proof" aria-label="Learning material overview">
-  <div><strong>4</strong><span>Open courses</span></div>
-  <div><strong>Hands-on</strong><span>Firsthand notes</span></div>
-  <div><strong>Practical</strong><span>Runnable exercises</span></div>
-  <div><strong>Free</strong><span>No ads or paywalls</span></div>
-</div>
+## What’s here
 
-## Open courses
-
-Clear Markdown lessons, practical exercises, and interactive simulations.
+Mostly distributed systems and the machinery underneath them — caching, durable
+execution, scheduling, observability — and lately the AI tooling growing into
+that same stack.
 
 <div class="course-grid" markdown>
 
-<a class="course-card security" href="https://sanketn26.github.io/learn-security/" aria-label="Start the Defensive Security Engineering course">
+<a class="course-card" href="projects/" aria-label="Browse the projects">
   <span class="course-number">01</span>
-  <span class="course-symbol">⌁</span>
-  <strong>Defensive Security Engineering</strong>
-  <span>Visual-first, hands-on cybersecurity for software engineers.</span>
-  <b>Start learning ↗</b>
+  <span class="course-symbol">◈</span>
+  <strong>Projects</strong>
+  <span>Open-source systems work: caching, durable execution, observability, agent context, and developer tooling.</span>
+  <b>Browse projects →</b>
 </a>
 
-<a class="course-card ml" href="https://sanketn26.github.io/learn-ml/" aria-label="Start the applied machine learning course">
+<a class="course-card" href="articles/" aria-label="Read the articles">
   <span class="course-number">02</span>
-  <span class="course-symbol">∿</span>
-  <strong>Learn ML</strong>
-  <span>Applied machine learning and practical AI frameworks.</span>
-  <b>Start learning ↗</b>
+  <span class="course-symbol">✎</span>
+  <strong>Articles</strong>
+  <span>Longer write-ups on observability, distributed systems, and backend engineering.</span>
+  <b>Read articles →</b>
 </a>
 
-<a class="course-card ai" href="https://sanketn26.github.io/AIEngineering/" aria-label="Start the AI Engineering course">
+<a class="course-card" href="note-courses/" aria-label="Browse the note courses">
   <span class="course-number">03</span>
-  <span class="course-symbol">✦</span>
-  <strong>AI Engineering</strong>
-  <span>Build from your first prompt through to production-ready agents.</span>
-  <b>Start learning ↗</b>
-</a>
-
-<a class="course-card academy" href="https://sanketn26.github.io/interview-prep/" aria-label="Start the Senior Engineer Academy course">
-  <span class="course-number">04</span>
-  <span class="course-symbol">⌘</span>
-  <strong>Senior Engineer Academy</strong>
-  <span>System design, DSA, and behavioural interview preparation.</span>
-  <b>Start learning ↗</b>
+  <span class="course-symbol">▤</span>
+  <strong>Note Courses</strong>
+  <span>Working notes turned into five courses: security, ML, AI engineering, data engineering, and interview prep.</span>
+  <b>Browse note courses →</b>
 </a>
 
 </div>

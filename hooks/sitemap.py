@@ -6,6 +6,7 @@ COURSE_SITEMAPS = (
     "https://sanketn26.github.io/learn-ml/sitemap.xml",
     "https://sanketn26.github.io/AIEngineering/sitemap.xml",
     "https://sanketn26.github.io/interview-prep/sitemap.xml",
+    "https://sanketn26.github.io/data-engineering/sitemap.xml",
 )
 
 

@@ -42,6 +42,9 @@ theme:
 
 nav:
   - Home: index.md
+  - Note Courses: note-courses.md
+  - Projects: projects.md
+  - Articles: articles.md
 
 extra_css:
   - stylesheets/extra.css
@@ -53,9 +56,20 @@ plugins:
 markdown_extensions:
   - attr_list
   - md_in_html
+  - admonition
+  - footnotes
+  - toc:
+      permalink: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.details
 
 extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/sanketn26
       name: Sanket on GitHub
+    - icon: fontawesome/brands/medium
+      link: https://medium.com/@sanketn
+      name: Sanket on Medium

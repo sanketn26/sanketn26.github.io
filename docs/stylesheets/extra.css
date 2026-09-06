@@ -103,6 +103,7 @@
 .course-terminal__body { padding: 1rem 1.1rem 1.2rem; }
 .course-terminal__body p { margin: 0.7rem 0; }
 .terminal-muted { margin-right: 0.65rem; color: var(--course-accent-light); }
+.terminal-note { color: #64748b; }
 .terminal-status { margin-top: 1.2rem; padding-top: 0.9rem; color: #94a3b8; border-top: 1px solid rgba(148, 163, 184, 0.14); }
 .terminal-status span { display: inline-block; width: 0.45rem; height: 0.45rem; margin-right: 0.4rem; background: #34d399; border-radius: 50%; box-shadow: 0 0 0 4px rgba(52, 211, 153, 0.1); }
 
@@ -121,7 +122,7 @@
 .course-proof span { display: block; margin-top: 0.12rem; color: #64748b; font-size: 0.68rem; }
 .md-typeset h2 { margin-top: 3.2rem; font-weight: 750; }
 
-.course-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; margin: 2rem 0 5rem; }
+.course-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr)); gap: 1rem; margin: 2rem 0 5rem; }
 
 .md-typeset .course-card {
   position: relative;
@@ -176,4 +177,60 @@
 
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { transition-duration: 0.01ms !important; }
+}
+
+
+/* Projects */
+.project-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr)); gap: 1rem; margin: 1.5rem 0 3rem; }
+
+.md-typeset .project-card {
+  display: flex;
+  flex-direction: column;
+  padding: 1.25rem 1.3rem;
+  color: #0f172a;
+  background: rgba(255, 255, 255, 0.7);
+  border: 1px solid #e2e8f0;
+  border-left: 3px solid var(--course-accent);
+  border-radius: 0.7rem;
+  box-shadow: 0 6px 20px rgba(15, 23, 42, 0.05);
+  transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+}
+
+.md-typeset .project-card:hover { box-shadow: 0 14px 34px rgba(15, 23, 42, 0.1); transform: translateY(-2px); }
+.project-card strong { margin-bottom: 0.45rem; font-size: 1.05rem; }
+.project-card > span { color: #64748b; font-size: 0.78rem; line-height: 1.6; }
+.project-card .project-tags { margin-top: auto; padding-top: 0.9rem; color: var(--course-accent); font-size: 0.68rem; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; }
+
+/* Link lists (articles published elsewhere) */
+.link-list { display: grid; gap: 0.4rem; margin: 1rem 0 2.5rem; }
+
+.md-typeset .link-item {
+  display: grid;
+  grid-template-columns: 6rem minmax(0, 1fr);
+  gap: 0.2rem 1rem;
+  padding: 0.75rem 0.9rem;
+  color: #0f172a;
+  border: 1px solid transparent;
+  border-radius: 0.5rem;
+  transition: background 0.15s ease, border-color 0.15s ease;
+}
+
+.md-typeset .link-item:hover { background: rgba(13, 148, 136, 0.06); border-color: rgba(13, 148, 136, 0.28); }
+.link-item .link-date { grid-row: span 2; color: var(--course-accent); font-family: "JetBrains Mono", ui-monospace, monospace; font-size: 0.7rem; padding-top: 0.15rem; }
+.link-item strong { font-size: 0.92rem; font-weight: 700; }
+.link-item > span:not(.link-date) { color: #64748b; font-size: 0.76rem; line-height: 1.5; }
+.link-item .link-meta { display: block; margin-top: 0.3rem; color: var(--course-accent); font-size: 0.64rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; }
+
+[data-md-color-scheme="slate"] .project-card { color: #e2e8f0; background: rgba(15, 23, 42, 0.5); border-color: #475569; border-left-color: var(--course-accent-light); }
+[data-md-color-scheme="slate"] .project-card > span { color: #94a3b8; }
+[data-md-color-scheme="slate"] .project-card .project-tags { color: var(--course-accent-light); }
+[data-md-color-scheme="slate"] .link-item { color: #e2e8f0; }
+[data-md-color-scheme="slate"] .link-item .link-date { color: var(--course-accent-light); }
+[data-md-color-scheme="slate"] .link-item > span:not(.link-date) { color: #94a3b8; }
+[data-md-color-scheme="slate"] .link-item .link-meta { color: var(--course-accent-light); }
+[data-md-color-scheme="slate"] .md-typeset .link-item:hover { background: rgba(45, 212, 191, 0.08); border-color: rgba(45, 212, 191, 0.3); }
+
+@media (max-width: 600px) {
+  .md-typeset .link-item { grid-template-columns: 1fr; }
+  .link-item .link-date { grid-row: auto; }
 }

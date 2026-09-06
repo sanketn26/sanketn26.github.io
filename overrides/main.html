@@ -9,7 +9,8 @@
   <meta name="author" content="{{ config.site_author }}">
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 
-  <meta property="og:type" content="website">
+  {% set og_type = "article" if page and page.file.src_uri.startswith("articles/posts/") else "website" %}
+  <meta property="og:type" content="{{ og_type }}">
   <meta property="og:site_name" content="{{ config.site_name }}">
   <meta property="og:title" content="{{ page_title }}">
   <meta property="og:description" content="{{ page_description }}">
@@ -32,11 +33,13 @@
           "@type": "Person",
           "name": "{{ config.site_author }}",
           "url": "{{ config.site_url }}",
-          "sameAs": ["https://github.com/sanketn26"],
+          "sameAs": ["https://github.com/sanketn26", "https://medium.com/@sanketn"],
           "knowsAbout": [
             "Defensive security engineering",
             "Machine learning",
             "AI engineering",
+            "Data engineering",
+            "Distributed systems",
             "System design",
             "Software engineering interviews"
           ]
@@ -44,7 +47,7 @@
         "hasPart": {
           "@type": "ItemList",
           "name": "Open engineering courses",
-          "numberOfItems": 4,
+          "numberOfItems": 5,
           "itemListElement": [
             {
               "@type": "ListItem",
@@ -69,6 +72,12 @@
               "position": 4,
               "url": "https://sanketn26.github.io/interview-prep/",
               "name": "Senior Engineer Academy"
+            },
+            {
+              "@type": "ListItem",
+              "position": 5,
+              "url": "https://sanketn26.github.io/data-engineering/",
+              "name": "Data Engineering Academy"
             }
           ]
         }
