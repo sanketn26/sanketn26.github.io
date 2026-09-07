@@ -12,7 +12,7 @@ hide:
 # Learning and building in public.
 
   <p class="home-hero__lead">I’ve spent most of my working life building software, platforms and distributed systems inside companies.</p>
-  <p>I’ve now stepped away from the corporate world and am starting a different chapter — exploring ideas, building open-source software, writing, and sharing what I learn along the way.</p>
+  <p>I’ve put many ideas aside for years. Before I step into another corporate role — and the commitments and constraints that come with it — I want to give them a real shot by building in the open.</p>
   <p>This site is where I keep that work.</p>
   <nav class="home-links" aria-label="Explore this site">
     <a href="https://github.com/sanketn26">GitHub <span aria-hidden="true">↗</span></a>
