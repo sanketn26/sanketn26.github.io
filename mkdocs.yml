@@ -1,16 +1,11 @@
-site_name: Sanket Naik
-site_description: Notes from hands-on engineering work — articles and free courses on systems, security, ML, AI engineering, and data engineering.
+site_name: Sanket
+site_description: Open-source experiments, evolving learning notes, and writing about distributed systems, data, observability, developer tools, and AI.
 site_author: Sanket Naik
 site_url: https://sanketn26.github.io/
 repo_url: https://github.com/sanketn26/sanketn26.github.io
 repo_name: sanketn26/sanketn26.github.io
 copyright: Copyright &copy; Sanket Naik
 use_directory_urls: true
-
-# Parked until at least one project is demoable. The page stays in the repo;
-# delete this block to put it back on the site (and restore its nav entry).
-exclude_docs: |
-  projects.md
 
 hooks:
   - hooks/sitemap.py
@@ -47,8 +42,11 @@ theme:
 
 nav:
   - Home: index.md
-  - Notes 2 Courses: notes-2-courses.md
-  - Articles: articles.md
+  - Projects: projects.md
+  - Notes: notes-2-courses.md
+  - Writing: articles.md
+  - About: index.md#about
+  - GitHub ↗: https://github.com/sanketn26
 
 extra_css:
   - stylesheets/extra.css

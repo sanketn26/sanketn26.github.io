@@ -1,13 +1,14 @@
 ---
-title: Articles
+title: Writing
 description: Long-form engineering articles by Sanket Naik published on Medium, in Better Programming and Level Up Coding, covering observability, cloud data migration, and Docker.
 hide:
   - toc
 ---
 
-# Articles
+# Writing
 
-Long-form articles published on Medium, newest first.
+Occasional longer notes on systems, software, AI, observability and things I’m
+trying to understand. Published on Medium, newest first.
 
 <div class="link-list">
 

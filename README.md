@@ -1,8 +1,8 @@
-## Years inside. Now learning by doing, in open source 👋
+## Learning and building in public 👋
 
-Throughout my career, I've kept detailed notes on what I've learned through
-hands-on experience. With the help of AI, I've organised and expanded those notes into
-structured learning material that I can share with others.
+After years building software, platforms, and distributed systems inside
+companies, I'm starting a different chapter: exploring ideas, building
+open-source software, writing, and sharing what I learn along the way.
 
 The material covers defensive security, applied machine learning, AI frameworks
 such as LangChain, LangGraph, and CrewAI, production AI engineering, data
@@ -11,14 +11,12 @@ engineering, and senior/staff-level system design and interview preparation.
 No paywalls or ads—just clear Markdown lessons, runnable exercises, and
 interactive simulations, all available on GitHub Pages.
 
-This repository is the hub site at <https://sanketn26.github.io/>. It has four
-sections:
+This repository is the hub site at <https://sanketn26.github.io/>. It has three
+main threads:
 
-- **Home** — landing page linking to everything below.
-- **Notes 2 Courses** (`docs/notes-2-courses.md`) — five courses grown from working notes, each its own repo.
-- **Projects** (`docs/projects.md`) — parked: excluded from the build via
-  `exclude_docs` in `mkdocs.yml` until a project is demoable.
-- **Articles** (`docs/articles.md`) — a dated list of long-form articles
+- **Projects** (`docs/projects.md`) — open-source experiments and early prototypes.
+- **Learning notes** (`docs/notes-2-courses.md`) — courses grown from working notes, each in its own repo.
+- **Writing** (`docs/articles.md`) — a dated list of long-form articles
   published on Medium.
 
 ### Adding an article
@@ -47,6 +45,6 @@ mkdocs serve
 | --- | --- |
 | [Defensive Security Engineering](https://sanketn26.github.io/learn-security/) | Visual-first, hands-on cybersecurity for software engineers. |
 | [Learn ML](https://sanketn26.github.io/learn-ml/) | Applied machine learning and practical AI frameworks. |
-| [AI Engineering](https://sanketn26.github.io/AIEngineering/) | Build from your first prompt through to production-ready agents. |
+| [AI Engineering](https://sanketn26.github.io/AIEngineering/) | Build systems around modern models without treating the models as magic. |
 | [Senior Engineer Academy](https://sanketn26.github.io/interview-prep/) | Prepare for system design, DSA, and behavioural interviews at senior, staff, and lead levels. |
 | [Data Engineering Academy](https://sanketn26.github.io/data-engineering/) | Intuition-first, production-focused modern data systems. |

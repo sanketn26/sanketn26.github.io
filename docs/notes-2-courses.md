@@ -1,6 +1,6 @@
 ---
-title: Notes 2 Courses — practical engineering courses from firsthand notes
-description: Five free Notes 2 Courses built from Sanket's firsthand engineering notes and shaped with AI, covering defensive security, machine learning, AI engineering, data engineering, and senior engineering interviews.
+title: Learning notes — engineering notes that grew into courses
+description: Free, evolving learning material built from firsthand engineering notes, revisited and expanded with AI helping with organisation and presentation.
 hide:
   - navigation
   - toc
@@ -8,15 +8,15 @@ hide:
 
 <section class="course-hero">
   <div class="course-hero__content">
-    <span class="course-eyebrow">Notes 2 Courses</span>
-    <h1>Notes from the work.<br><span>Lessons for everyone.</span></h1>
+    <span class="course-eyebrow">Learning notes</span>
+    <h1>Notes that grew<br><span>into courses.</span></h1>
     <p class="course-hero__lead">
-      Throughout my career, I’ve kept detailed notes on what I’ve learned through
-      hands-on experience. With the help of AI, I’ve organised and expanded those
-      notes into structured learning material that I can share with others.
+      I’ve kept engineering notes for years while learning, debugging and building
+      systems. I’m now revisiting, testing and expanding them, with AI helping with
+      organisation, explanation and presentation.
     </p>
     <div class="course-actions">
-      <a class="course-button course-button--primary" href="#the-courses">Explore the courses <span aria-hidden="true">↓</span></a>
+      <a class="course-button course-button--primary" href="#the-courses">Explore the material <span aria-hidden="true">↓</span></a>
       <a class="course-button course-button--secondary" href="https://github.com/sanketn26">View on GitHub <span aria-hidden="true">↗</span></a>
     </div>
     <p class="course-hero__note">No paywalls · No ads · Open on GitHub</p>
@@ -26,23 +26,17 @@ hide:
     <div class="course-terminal__body">
       <p><span class="terminal-muted">01</span> Learn through hands-on work</p>
       <p><span class="terminal-muted">02</span> Capture firsthand notes</p>
-      <p><span class="terminal-muted">03</span> Organise and expand with AI</p>
+      <p><span class="terminal-muted">03</span> Revisit, test and expand</p>
       <p><span class="terminal-muted">04</span> Share practical courses</p>
       <div class="terminal-status"><span></span> Free and open to everyone</div>
     </div>
   </div>
 </section>
 
-<div class="course-proof" aria-label="Note courses overview">
-  <div><strong>5</strong><span>Notes 2 Courses</span></div>
-  <div><strong>Hands-on</strong><span>Firsthand notes</span></div>
-  <div><strong>Practical</strong><span>Runnable exercises</span></div>
-  <div><strong>Free</strong><span>No ads or paywalls</span></div>
-</div>
-
 ## The courses
 
-Clear Markdown lessons, practical exercises, and interactive simulations.
+Everything here is free and continues to evolve: clear Markdown lessons,
+practical exercises, and interactive simulations.
 
 <div class="course-grid">
 
@@ -66,7 +60,7 @@ Clear Markdown lessons, practical exercises, and interactive simulations.
   <span class="course-number">03</span>
   <span class="course-symbol">✦</span>
   <strong>AI Engineering</strong>
-  <span>Build from your first prompt through to production-ready agents.</span>
+  <span>Build systems around modern models without treating the models as magic.</span>
   <b>Start learning ↗</b>
 </a>
 
