@@ -14,9 +14,9 @@ hide:
   <p>This site is where I keep that work.</p>
   <nav class="home-links" aria-label="Explore this site">
     <a href="https://github.com/sanketn26">GitHub <span aria-hidden="true">↗</span></a>
-    <a href="projects/">Projects</a>
-    <a href="notes-2-courses/">Learning notes</a>
-    <a href="articles/">Writing</a>
+    <a href="/projects/">Projects</a>
+    <a href="/notes-2-courses/">Learning notes</a>
+    <a href="/articles/">Writing</a>
   </nav>
 </section>
 
@@ -53,7 +53,7 @@ some may simply teach me something useful.
 
 </div>
 
-[See all experiments →](projects/){ .section-link }
+[See all experiments →](projects.md){ .section-link }
 
 ---
 
@@ -73,7 +73,7 @@ Everything here is free and continues to evolve.
   <a href="https://sanketn26.github.io/interview-prep/"><strong>Senior Engineer Academy</strong><span>Systems and architecture beyond day-to-day implementation.</span><b>Explore ↗</b></a>
 </div>
 
-[More about the learning notes →](notes-2-courses/){ .section-link }
+[More about the learning notes →](notes-2-courses.md){ .section-link }
 
 ---
 
@@ -88,7 +88,7 @@ trying to understand.
   <a href="https://medium.com/better-programming/a-cloud-data-migration-framework-on-apis-leveraging-containers-aa4495bcae29"><strong>A Cloud Data Migration Framework on APIs Using Containers</strong><span>Better Programming · January 2020</span></a>
 </div>
 
-[All writing →](articles/){ .section-link }
+[All writing →](articles.md){ .section-link }
 
 ---
 

@@ -45,7 +45,7 @@ nav:
   - Projects: projects.md
   - Notes: notes-2-courses.md
   - Writing: articles.md
-  - About: index.md#about
+  - About: about.md
   - GitHub ↗: https://github.com/sanketn26
 
 extra_css:
