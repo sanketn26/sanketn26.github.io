@@ -1,5 +1,5 @@
 ---
-title: About Sanket
+title: About
 description: About Sanket Naik and his work in open-source software, distributed systems, data engineering, observability, developer tools, and AI systems.
 hide:
   - toc

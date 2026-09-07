@@ -310,22 +310,6 @@
   font-size: clamp(1.5rem, 3vw, 2rem);
 }
 
-.home-projects {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  margin-bottom: 1.25rem;
-}
-
-.home-projects .project-card {
-  min-height: 13rem;
-}
-
-.project-card .project-link {
-  margin-top: auto;
-  padding-top: 1rem;
-  color: var(--course-accent);
-  font-size: 0.7rem;
-}
-
 .learning-list,
 .writing-list {
   margin: 1.75rem 0 1.25rem;
@@ -368,8 +352,6 @@
 [data-md-color-scheme="slate"] .home-hero .home-hero__lead { color: #94a3b8; }
 
 @media (max-width: 800px) {
-  .home-projects { grid-template-columns: 1fr; }
-  .home-projects .project-card { min-height: 10rem; }
   .md-typeset .learning-list a { grid-template-columns: 1fr auto; }
   .learning-list span { grid-column: 1 / -1; grid-row: 2; }
 }

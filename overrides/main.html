@@ -6,7 +6,6 @@
   {% set page_description = page.meta.description if page and page.meta and page.meta.description else config.site_description %}
   {% set canonical_url = page.canonical_url if page else config.site_url %}
 
-  <meta name="author" content="{{ config.site_author }}">
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 
   {% set og_type = "article" if page and page.file.src_uri.startswith("articles/posts/") else "website" %}

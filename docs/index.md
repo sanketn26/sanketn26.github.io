@@ -1,14 +1,16 @@
 ---
-title: Sanket — learning and building in public
+title: Learning and building in public
 description: Open-source experiments, evolving learning notes, and writing about distributed systems, data, observability, developer tools, and AI.
 hide:
   - navigation
   - toc
 ---
 
-<section class="home-hero">
+<section class="home-hero" markdown>
   <p class="home-eyebrow">Sanket Naik</p>
-  <h1>Learning and building in public.</h1>
+
+# Learning and building in public.
+
   <p class="home-hero__lead">I’ve spent most of my working life building software, platforms and distributed systems inside companies.</p>
   <p>I’ve now stepped away from the corporate world and am starting a different chapter — exploring ideas, building open-source software, writing, and sharing what I learn along the way.</p>
   <p>This site is where I keep that work.</p>
@@ -19,41 +21,6 @@ hide:
     <a href="/articles/">Writing</a>
   </nav>
 </section>
-
----
-
-## What I’m working on
-
-I’m using this phase to explore problems that have interested me for a long time.
-Most of these projects are early. Some may work, some may change direction, and
-some may simply teach me something useful.
-
-<div class="project-grid home-projects">
-
-<a class="project-card" href="https://github.com/sanketn26/cogneetree" aria-label="Cogneetree on GitHub">
-  <span class="project-status status-exploring">Exploring</span>
-  <strong>Cogneetree</strong>
-  <span>Experiments around hierarchical context and memory for AI systems.</span>
-  <b class="project-link">GitHub →</b>
-</a>
-
-<a class="project-card" href="https://github.com/sanketn26/luminate" aria-label="Luminate on GitHub">
-  <span class="project-status status-exploring">Exploring</span>
-  <strong>Luminate</strong>
-  <span>Experiments in high-cardinality observability and time-series systems.</span>
-  <b class="project-link">GitHub →</b>
-</a>
-
-<a class="project-card" href="https://github.com/sanketn26/gossipcache" aria-label="GossipCache on GitHub">
-  <span class="project-status status-prototype">Early prototype</span>
-  <strong>GossipCache</strong>
-  <span>Experiments with distributed caching, propagation and invalidation.</span>
-  <b class="project-link">GitHub →</b>
-</a>
-
-</div>
-
-[See all experiments →](projects.md){ .section-link }
 
 ---
 
@@ -89,23 +56,3 @@ trying to understand.
 </div>
 
 [All writing →](articles.md){ .section-link }
-
----
-
-## About
-
-I’m Sanket.
-
-I’ve spent most of my career building software, distributed systems, data
-platforms and infrastructure.
-
-After more than two decades inside engineering organisations, I’ve decided to
-spend some time building differently — working in the open, following problems I
-find interesting, and learning things I’ve postponed for too long.
-
-I’m particularly interested in distributed systems, data engineering,
-observability, developer tools and AI systems.
-
-This site is a record of that journey.
-
-[GitHub](https://github.com/sanketn26) · [LinkedIn](https://www.linkedin.com/in/sanketn/)
