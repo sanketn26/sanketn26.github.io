@@ -1,6 +1,6 @@
 ---
-title: Note Courses — practical engineering courses from firsthand notes
-description: Five free note courses built from Sanket's firsthand engineering notes and shaped with AI, covering defensive security, machine learning, AI engineering, data engineering, and senior engineering interviews.
+title: Notes 2 Courses — practical engineering courses from firsthand notes
+description: Five free Notes 2 Courses built from Sanket's firsthand engineering notes and shaped with AI, covering defensive security, machine learning, AI engineering, data engineering, and senior engineering interviews.
 hide:
   - navigation
   - toc
@@ -8,7 +8,7 @@ hide:
 
 <section class="course-hero">
   <div class="course-hero__content">
-    <span class="course-eyebrow">Note Courses</span>
+    <span class="course-eyebrow">Notes 2 Courses</span>
     <h1>Notes from the work.<br><span>Lessons for everyone.</span></h1>
     <p class="course-hero__lead">
       Throughout my career, I’ve kept detailed notes on what I’ve learned through
@@ -34,7 +34,7 @@ hide:
 </section>
 
 <div class="course-proof" aria-label="Note courses overview">
-  <div><strong>5</strong><span>Note courses</span></div>
+  <div><strong>5</strong><span>Notes 2 Courses</span></div>
   <div><strong>Hands-on</strong><span>Firsthand notes</span></div>
   <div><strong>Practical</strong><span>Runnable exercises</span></div>
   <div><strong>Free</strong><span>No ads or paywalls</span></div>

@@ -1,11 +1,16 @@
-site_name: Sanket — Learning in public
-site_description: Firsthand engineering notes shaped with AI into free, practical learning material.
+site_name: Sanket Naik
+site_description: Notes from hands-on engineering work — articles and free courses on systems, security, ML, AI engineering, and data engineering.
 site_author: Sanket Naik
 site_url: https://sanketn26.github.io/
 repo_url: https://github.com/sanketn26/sanketn26.github.io
 repo_name: sanketn26/sanketn26.github.io
 copyright: Copyright &copy; Sanket Naik
 use_directory_urls: true
+
+# Parked until at least one project is demoable. The page stays in the repo;
+# delete this block to put it back on the site (and restore its nav entry).
+exclude_docs: |
+  projects.md
 
 hooks:
   - hooks/sitemap.py
@@ -42,8 +47,7 @@ theme:
 
 nav:
   - Home: index.md
-  - Note Courses: note-courses.md
-  - Projects: projects.md
+  - Notes 2 Courses: notes-2-courses.md
   - Articles: articles.md
 
 extra_css:
@@ -70,6 +74,9 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/sanketn26
       name: Sanket on GitHub
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/sanketn/
+      name: Sanket on LinkedIn
     - icon: fontawesome/brands/medium
       link: https://medium.com/@sanketn
       name: Sanket on Medium

@@ -1,4 +1,4 @@
-## Learning in public 👋
+## Years inside. Now learning by doing, in open source 👋
 
 Throughout my career, I've kept detailed notes on what I've learned through
 hands-on experience. With the help of AI, I've organised and expanded those notes into
@@ -15,8 +15,9 @@ This repository is the hub site at <https://sanketn26.github.io/>. It has four
 sections:
 
 - **Home** — landing page linking to everything below.
-- **Note Courses** (`docs/note-courses.md`) — five courses grown from working notes, each its own repo.
-- **Projects** (`docs/projects.md`) — open-source systems and tooling.
+- **Notes 2 Courses** (`docs/notes-2-courses.md`) — five courses grown from working notes, each its own repo.
+- **Projects** (`docs/projects.md`) — parked: excluded from the build via
+  `exclude_docs` in `mkdocs.yml` until a project is demoable.
 - **Articles** (`docs/articles.md`) — a dated list of long-form articles
   published on Medium.
 
@@ -40,9 +41,9 @@ pip install -r requirements.txt
 mkdocs serve
 ```
 
-### Explore the note courses
+### Explore the Notes 2 Courses
 
-| Note course | What you'll learn |
+| Course | What you'll learn |
 | --- | --- |
 | [Defensive Security Engineering](https://sanketn26.github.io/learn-security/) | Visual-first, hands-on cybersecurity for software engineers. |
 | [Learn ML](https://sanketn26.github.io/learn-ml/) | Applied machine learning and practical AI frameworks. |

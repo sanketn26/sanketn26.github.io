@@ -80,6 +80,7 @@
 .md-typeset .course-button:hover { transform: translateY(-1px); }
 .md-typeset .course-button--primary { color: #fff; background: var(--course-accent); box-shadow: 0 8px 24px rgba(13, 148, 136, 0.28); }
 .md-typeset .course-button--secondary { color: #1e293b; background: rgba(255, 255, 255, 0.7); border-color: #cbd5e1; }
+.course-hero__bio { max-width: 40rem; margin: 1.2rem 0 0; padding-left: 0.9rem; color: #475569; border-left: 2px solid var(--course-line); font-size: 0.92rem; line-height: 1.7; }
 .course-hero__note { margin: 1rem 0 0; color: #64748b; font-size: 0.72rem; }
 
 .course-terminal {
@@ -148,7 +149,8 @@
 
 [data-md-color-scheme="slate"] .course-hero h1,
 [data-md-color-scheme="slate"] .course-proof strong { color: #f8fafc; }
-[data-md-color-scheme="slate"] .course-hero__lead { color: #94a3b8; }
+[data-md-color-scheme="slate"] .course-hero__lead,
+[data-md-color-scheme="slate"] .course-hero__bio { color: #94a3b8; }
 [data-md-color-scheme="slate"] .course-button--secondary,
 [data-md-color-scheme="slate"] .course-card { color: #e2e8f0; background: rgba(15, 23, 42, 0.5); border-color: #475569; }
 [data-md-color-scheme="slate"] .course-card > span:not(.course-number, .course-symbol) { color: #94a3b8; }
