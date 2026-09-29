@@ -1,5 +1,5 @@
 site_name: Sanket
-site_description: Open-source experiments, evolving learning notes, and writing about distributed systems, data, observability, developer tools, and AI.
+site_description: Open-source experiments, five engineering courses, and an archive of writing on distributed systems, data, observability, developer tools, and AI.
 site_author: Sanket Naik
 site_url: https://sanketn26.github.io/
 repo_url: https://github.com/sanketn26/sanketn26.github.io
@@ -42,8 +42,8 @@ theme:
 
 nav:
   - Home: index.md
+  - Courses: notes-2-courses.md
   - Projects: projects.md
-  - Notes: notes-2-courses.md
   - Writing: articles.md
   - About: about.md
   - GitHub ↗: https://github.com/sanketn26
@@ -66,6 +66,9 @@ markdown_extensions:
       anchor_linenums: true
   - pymdownx.superfences
   - pymdownx.details
+  - pymdownx.snippets:
+      base_path: [docs]
+      check_paths: true
 
 extra:
   social:

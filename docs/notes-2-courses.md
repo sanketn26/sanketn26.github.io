@@ -1,6 +1,6 @@
 ---
-title: Learning notes — engineering notes that grew into courses
-description: Free, evolving learning material built from firsthand engineering notes, revisited and expanded with AI helping with organisation and presentation.
+title: Courses
+description: Five engineering courses grown from working notes. Each course keeps its own voice. No paywall. Optional coffee. Analytics only if a key is set.
 hide:
   - navigation
   - toc
@@ -8,21 +8,21 @@ hide:
 
 <section class="course-hero">
   <div class="course-hero__content">
-    <span class="course-eyebrow">Learning notes</span>
-    <h1>Notes that grew<br><span>into courses.</span></h1>
+    <span class="course-eyebrow">Courses</span>
+    <h1>Courses</h1>
     <p class="course-hero__lead">
       I’ve kept engineering notes for years while learning, debugging and building
       systems. I’m now revisiting, testing and expanding them, with AI helping with
       organisation, explanation and presentation.
     </p>
     <div class="course-actions">
-      <a class="course-button course-button--primary" href="#the-courses">Explore the material <span aria-hidden="true">↓</span></a>
+      <a class="course-button course-button--primary" href="#the-five-courses">Explore the courses <span aria-hidden="true">↓</span></a>
       <a class="course-button course-button--secondary" href="https://github.com/sanketn26">View on GitHub <span aria-hidden="true">↗</span></a>
     </div>
-    <p class="course-hero__note">No paywalls · No ads · Open on GitHub</p>
+    <p class="course-hero__note">No paywall. Optional coffee. Analytics only if a key is set.</p>
   </div>
   <div class="course-terminal" aria-label="How these courses are made">
-    <div class="course-terminal__bar"><i></i><i></i><i></i><span>notes / learning-material</span></div>
+    <div class="course-terminal__bar"><i></i><i></i><i></i><span>courses</span></div>
     <div class="course-terminal__body">
       <p><span class="terminal-muted">01</span> Learn through hands-on work</p>
       <p><span class="terminal-muted">02</span> Capture firsthand notes</p>
@@ -33,51 +33,26 @@ hide:
   </div>
 </section>
 
-## The courses
+## The five courses
 
-Everything here is free and continues to evolve: clear Markdown lessons,
-practical exercises, and interactive simulations.
+Each course keeps its own voice. The chip on a card is who the course is written for.
 
-<div class="course-grid">
+--8<-- "includes/course-cards.html"
 
-<a class="course-card security" href="https://sanketn26.github.io/learn-security/" aria-label="Start the Defensive Security Engineering course">
-  <span class="course-number">01</span>
-  <span class="course-symbol">⌁</span>
-  <strong>Defensive Security Engineering</strong>
-  <span>Visual-first, hands-on cybersecurity for software engineers.</span>
-  <b>Start learning ↗</b>
-</a>
+## How a lesson is built
 
-<a class="course-card ml" href="https://sanketn26.github.io/learn-ml/" aria-label="Start the applied machine learning course">
-  <span class="course-number">02</span>
-  <span class="course-symbol">∿</span>
-  <strong>Learn ML</strong>
-  <span>Applied machine learning and practical AI frameworks.</span>
-  <b>Start learning ↗</b>
-</a>
+The courses do not share one lesson template.
 
-<a class="course-card ai" href="https://sanketn26.github.io/AIEngineering/" aria-label="Start the AI Engineering course">
-  <span class="course-number">03</span>
-  <span class="course-symbol">✦</span>
-  <strong>AI Engineering</strong>
-  <span>Build systems around modern models without treating the models as magic.</span>
-  <b>Start learning ↗</b>
-</a>
+- Defensive Security Engineering is a visual overview, then the module, then the lab.
+- Learn ML is an analogy, then a picture, then code.
+- AI Engineering opens on an incident and the decision that closes it.
+- Senior Engineer Academy and Data Engineering Academy derive a design from a workload and its failures.
 
-<a class="course-card academy" href="https://sanketn26.github.io/interview-prep/" aria-label="Start the Senior Engineer Academy course">
-  <span class="course-number">04</span>
-  <span class="course-symbol">⌘</span>
-  <strong>Senior Engineer Academy</strong>
-  <span>System design, DSA, and behavioural interview preparation.</span>
-  <b>Start learning ↗</b>
-</a>
+That difference stays. Every lesson still marks the same four slots:
 
-<a class="course-card data" href="https://sanketn26.github.io/data-engineering/" aria-label="Start the Data Engineering Academy course">
-  <span class="course-number">05</span>
-  <span class="course-symbol">⛁</span>
-  <strong>Data Engineering Academy</strong>
-  <span>Intuition-first, production-focused modern data systems.</span>
-  <b>Start learning ↗</b>
-</a>
-
-</div>
+| Slot | What it tells you |
+| --- | --- |
+| objectives | What you should be able to do when the lesson is done. |
+| depends-on | Which lesson has to come first. |
+| next | Where to go when this one is done. |
+| status | Whether the lesson is ready to study. |
