@@ -16,19 +16,21 @@ some may simply teach me something useful. Everything here is open source on
 
 <div class="project-grid">
 
-<a class="project-card" href="https://github.com/sanketn26/gossipcache" aria-label="GossipCache on GitHub">
+<article class="project-card">
   <span class="project-status status-prototype">Early prototype</span>
-  <strong>GossipCache</strong>
+  <a href="https://github.com/sanketn26/gossipcache"><strong>GossipCache</strong></a>
   <span>In-process L1 cache with a memory-first L2 hub — hot reads stay local while the hub owns versions and invalidations.</span>
+  <a class="project-related" href="https://sanketn26.github.io/interview-prep/system-design-exercises/distributed-cache/">Related lesson: Design: Distributed Cache</a>
   <b class="project-tags">Caching · Distributed systems</b>
-</a>
+</article>
 
-<a class="project-card" href="https://github.com/sanketn26/luminate" aria-label="Luminate on GitHub">
+<article class="project-card">
   <span class="project-status status-exploring">Exploring</span>
-  <strong>Luminate</strong>
+  <a href="https://github.com/sanketn26/luminate"><strong>Luminate</strong></a>
   <span>A high-cardinality observability system, built from the ground up for label dimensions that break traditional time-series databases.</span>
+  <a class="project-related" href="https://sanketn26.github.io/data-engineering/architectures/observability/">Related lesson: Observability Platform Architecture</a>
   <b class="project-tags">Observability · Time series</b>
-</a>
+</article>
 
 </div>
 
@@ -36,12 +38,13 @@ some may simply teach me something useful. Everything here is open source on
 
 <div class="project-grid">
 
-<a class="project-card" href="https://github.com/sanketn26/cogneetree" aria-label="Cogneetree on GitHub">
+<article class="project-card">
   <span class="project-status status-exploring">Exploring</span>
-  <strong>Cogneetree</strong>
+  <a href="https://github.com/sanketn26/cogneetree"><strong>Cogneetree</strong></a>
   <span>Hierarchical context for AI applications — persistent memory across Session → Activity → Task, so agents can reach past decisions and learnings.</span>
+  <a class="project-related" href="https://sanketn26.github.io/AIEngineering/core/19-orchestration-patterns/">Related lesson: Orchestration patterns — memory</a>
   <b class="project-tags">Agents · Context management</b>
-</a>
+</article>
 
 </div>
 
@@ -49,11 +52,11 @@ some may simply teach me something useful. Everything here is open source on
 
 <div class="project-grid">
 
-<a class="project-card" href="https://github.com/sanketn26/illusion" aria-label="Illusion on GitHub">
+<article class="project-card">
   <span class="project-status status-exploring">Exploring</span>
-  <strong>Illusion</strong>
+  <a href="https://github.com/sanketn26/illusion"><strong>Illusion</strong></a>
   <span>Code-first physics simulations that reveal exactly where intuition breaks.</span>
   <b class="project-tags">Simulation · Learning</b>
-</a>
+</article>
 
 </div>

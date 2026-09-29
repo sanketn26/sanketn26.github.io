@@ -131,7 +131,24 @@
 .course-number { color: var(--course-accent); font-family: "JetBrains Mono", monospace; font-size: 0.68rem; font-weight: 700; }
 .course-symbol { position: absolute; top: 0.6rem; right: 1.3rem; color: rgba(13, 148, 136, 0.12); font-size: 5rem; line-height: 1; }
 .course-card strong { max-width: 20rem; margin: auto 0 0.6rem; font-size: clamp(1.25rem, 2.5vw, 1.7rem); line-height: 1.15; }
-.course-card > span:not(.course-number, .course-symbol) { color: #64748b; }
+.course-card > span:not(.course-number, .course-symbol, .course-level) { color: #64748b; }
+.course-level {
+  align-self: flex-start;
+  margin-top: 0.85rem;
+  padding: 0.16rem 0.5rem;
+  border: 1px solid currentcolor;
+  border-radius: 999px;
+  font-size: 0.6rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+.course-card.security .course-level,
+.course-card.ml .course-level,
+.course-card.ai .course-level { color: var(--course-accent); }
+.course-card.academy .course-level { color: #b45309; }
+.course-card.data .course-level { color: #6d28d9; }
 .course-card b { margin-top: 1.2rem; padding-top: 0.8rem; color: var(--course-accent); border-top: 1px solid #e2e8f0; font-size: 0.72rem; }
 
 [data-md-color-scheme="slate"] .course-hero h1 { color: #f8fafc; }
@@ -139,7 +156,12 @@
 [data-md-color-scheme="slate"] .course-hero__bio { color: #94a3b8; }
 [data-md-color-scheme="slate"] .course-button--secondary,
 [data-md-color-scheme="slate"] .course-card { color: #e2e8f0; background: rgba(15, 23, 42, 0.5); border-color: #475569; }
-[data-md-color-scheme="slate"] .course-card > span:not(.course-number, .course-symbol) { color: #94a3b8; }
+[data-md-color-scheme="slate"] .course-card > span:not(.course-number, .course-symbol, .course-level) { color: #94a3b8; }
+[data-md-color-scheme="slate"] .course-card.security .course-level,
+[data-md-color-scheme="slate"] .course-card.ml .course-level,
+[data-md-color-scheme="slate"] .course-card.ai .course-level { color: var(--course-accent-light); }
+[data-md-color-scheme="slate"] .course-card.academy .course-level { color: #fcd34d; }
+[data-md-color-scheme="slate"] .course-card.data .course-level { color: #c4b5fd; }
 [data-md-color-scheme="slate"] .course-card b { border-color: #475569; }
 
 @media (max-width: 1100px) {
@@ -177,6 +199,15 @@
   transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
 }
 
+.md-typeset .project-card > a { color: inherit; font-weight: 700; }
+.md-typeset .project-card > a:hover { color: var(--course-accent); }
+.md-typeset .project-card a.project-related {
+  margin-top: 0.85rem;
+  color: var(--course-accent);
+  font-size: 0.72rem;
+  font-weight: 700;
+}
+
 .md-typeset .project-card:hover { box-shadow: 0 14px 34px rgba(15, 23, 42, 0.1); transform: translateY(-2px); }
 .project-card strong { margin-bottom: 0.45rem; font-size: 1.05rem; }
 .project-card > span:not(.project-status) { color: #64748b; font-size: 0.78rem; line-height: 1.6; }
@@ -204,7 +235,8 @@
 
 [data-md-color-scheme="slate"] .project-card { color: #e2e8f0; background: rgba(15, 23, 42, 0.5); border-color: #475569; border-left-color: var(--course-accent-light); }
 [data-md-color-scheme="slate"] .project-card > span:not(.project-status) { color: #94a3b8; }
-[data-md-color-scheme="slate"] .project-card .project-tags { color: var(--course-accent-light); }
+[data-md-color-scheme="slate"] .project-card .project-tags,
+[data-md-color-scheme="slate"] .project-card a.project-related { color: var(--course-accent-light); }
 [data-md-color-scheme="slate"] .link-item { color: #e2e8f0; }
 [data-md-color-scheme="slate"] .link-item .link-date { color: var(--course-accent-light); }
 [data-md-color-scheme="slate"] .link-item > span:not(.link-date) { color: #94a3b8; }
@@ -247,7 +279,7 @@
 
 /* Homepage: a restrained, notebook-like home for building, learning, and writing. */
 .md-content:has(.home-hero) .md-content__inner {
-  max-width: 58rem;
+  max-width: 72rem;
   margin: 0 auto;
   padding-top: 0;
 }
@@ -297,6 +329,14 @@
 .md-typeset .home-links a {
   color: var(--course-accent);
   font-weight: 700;
+}
+
+.md-typeset .home-links a.is-archive small {
+  margin-left: 0.35rem;
+  font-size: 0.62rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
 
 .md-content:has(.home-hero) hr {

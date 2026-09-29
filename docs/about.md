@@ -1,6 +1,6 @@
 ---
 title: About
-description: About Sanket Naik and his work in open-source software, distributed systems, data engineering, observability, developer tools, and AI systems.
+description: About Sanket Naik. The courses are Defensive Security Engineering, Learn ML, AI Engineering, Senior Engineer Academy, and Data Engineering Academy.
 hide:
   - toc
 ---
@@ -20,6 +20,12 @@ open-source software.
 I’m particularly interested in distributed systems, data engineering,
 observability, developer tools and AI systems.
 
-This site is a record of that journey.
+This site is a record of that journey. The curriculum is on [Courses](/notes-2-courses/):
+
+- [Defensive Security Engineering](https://sanketn26.github.io/learn-security/) — visual-first, hands-on cybersecurity for software engineers.
+- [Learn ML](https://sanketn26.github.io/learn-ml/) — applied ML and AI-framework courses for software engineers: analogies first, then pictures, then code.
+- [AI Engineering](https://sanketn26.github.io/AIEngineering/) — build systems around modern models without treating the models as magic.
+- [Senior Engineer Academy](https://sanketn26.github.io/interview-prep/) — prepare for system design, DSA, and behavioural interviews at senior, staff, and lead levels.
+- [Data Engineering Academy](https://sanketn26.github.io/data-engineering/) — intuition-first, production-focused modern data systems.
 
 [GitHub](https://github.com/sanketn26) · [LinkedIn](https://www.linkedin.com/in/sanketn/)
